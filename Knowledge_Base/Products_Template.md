@@ -1,90 +1,219 @@
-# Product Template
+# Product Record Template
 
-## Основная информация
+## 1. Product Identity
 
-Название товара:
+Product ID:
+Name:
+Category:
+Subcategory:
 
-Категория:
+## 2. Product Core Data
 
-Подкатегория:
+Description:
 
-Описание:
+Primary Customer Problem:
 
----
+Product Solution:
 
-## Проблема и решение
+Key Features:
 
-Какую проблему решает товар:
+Advantages:
 
-Почему клиенту нужен этот товар:
+Disadvantages:
 
----
+Unique Features:
 
-## Анализ рынка
+Improvement Opportunities:
 
-Целевая аудитория:
+## 3. Supplier Relationship
 
-Основные конкуренты:
+Supplier ID:
 
-Текущий спрос:
+## 4. Product Lifecycle
 
-Рыночные тенденции:
+Status:
 
----
+## 5. Source / Evidence
 
-## Анализ товара
+Primary Source:
+Additional Sources:
 
-Основные преимущества:
+## 6. Data Quality
 
-Недостатки:
+Data Classification:
+Verification Status:
+Missing Required Data:
 
-Уникальные особенности:
+## 7. Notes
 
-Возможность улучшения:
+Notes:
 
----
+# FIELD SEMANTICS
 
-## Финансовая оценка
+## Product ID
+Canonical unique identifier of the Product.
 
-Ориентировочная стоимость:
+Required: YES.
 
-Предполагаемая цена продажи:
+## Name
+Canonical product name.
 
-Потенциальная прибыль:
+Required: YES.
 
-Оценка рентабельности:
+## Category
+Canonical Product category.
 
----
+Required: YES.
 
-## Поставщик
+## Subcategory
+More specific classification where applicable.
 
-Название поставщика:
+Required: CONDITIONAL.
 
-Платформа:
+## Description
+Canonical description of the Product itself, not an AI analysis.
 
-Ссылка:
+Required: YES.
 
-Минимальный заказ:
+## Primary Customer Problem
+The customer problem the Product is intended to address.
 
-Условия производства:
+Required: YES.
 
-Условия доставки:
+## Product Solution
+How the Product addresses that problem.
 
----
+Required: YES.
 
-## Оценка AI
+## Key Features
+Core factual characteristics of the Product.
 
-Потенциал товара:
+Required: YES.
 
-Конкурентоспособность:
+## Advantages
+Known or verified advantages of the Product.
 
-Риски:
+Required: CONDITIONAL.
 
-Итоговая рекомендация:
+## Disadvantages
+Known limitations or disadvantages of the Product.
 
-Статус:
+Required: CONDITIONAL.
 
-- Исследовать
-- Тестировать
-- Запускать
-- Отказаться
+## Unique Features
+Features that materially differentiate the Product.
+
+Required: CONDITIONAL.
+
+## Improvement Opportunities
+Potential improvements to the Product.
+
+Required: OPTIONAL.
+
+## Supplier ID
+Structured reference to the canonical Supplier.
+
+Required: CONDITIONAL.
+
+The exact final relationship syntax is not defined here.
+
+## Status
+Canonical Product lifecycle status.
+
+Required: YES.
+
+The exact final enum values and their language are not changed by this proposal.
+
+## Primary Source
+Primary evidence/source for externally verifiable Product information.
+
+Required: CONDITIONAL.
+
+## Additional Sources
+Additional evidence references.
+
+Required: OPTIONAL.
+
+## Data Classification
+Classification of information, such as FACT/DATA, ASSUMPTION, ESTIMATE or another subsequently approved classification.
+
+Required: YES.
+
+## Verification Status
+Indicates whether relevant factual information has been verified.
+
+Required: YES.
+
+## Missing Required Data
+Explicit indication of required information that is currently unavailable.
+
+Required: YES.
+
+## Notes
+Free-form notes only.
+
+Required: OPTIONAL.
+
+Structured relationships and structured data must not be placed in Notes.
+
+# ARCHITECTURAL BOUNDARY
+
+This template contains Product Core Data and only the minimum structural fields already supported by approved Decisions A–M.
+
+It does NOT define or embed:
+
+- Analysis History;
+- Analysis entity;
+- Decision entity;
+- Analysis/Decision references;
+- Analysis Status;
+- Product Hunter results;
+- Financial Evaluation results;
+- Marketing analysis;
+- Sales analysis;
+- Business Manager decisions.
+
+Those remain outside the Product Core Record until separately approved architectural decisions define their structure.
+
+# FINANCIAL EVALUATION
+
+Financial Evaluation Agent is already approved as a full Agent component under Decision P2.0.
+
+Its final structural placement and relationship to Knowledge Base storage are NOT encoded in this template.
+
+# WHAT THIS VERSION IMPLEMENTS CONCEPTUALLY
+
+This proposed template is limited to the approved architectural decisions that directly affect the Product Record schema:
+
+A — Product Entity
+B — Product ID
+H — Product Status
+J — Required Fields
+K — Source / Evidence
+L — Template-to-Record Consistency
+M — Product Core Data vs Analysis/Decision Data Boundary
+
+Decision G is intentionally NOT listed here because its implementation mechanism has not yet been selected.
+
+# FILE EXIT CRITERIA
+
+Before this file can be approved for GitHub:
+
+1. Product ID is explicitly represented.
+2. Product Core Data is separated from Analysis/Decision Data.
+3. Supplier relationship has a dedicated field.
+4. Product lifecycle Status has a dedicated field.
+5. Required/Conditional/Optional classification is explicit.
+6. Source/Evidence representation is present.
+7. Data Classification is present.
+8. Verification Status is present.
+9. Missing Required Data is explicitly represented.
+10. No unapproved Analysis/Decision entity, reference system, or Analysis Status is embedded.
+11. The template does not make unresolved Financial Evaluation architecture assumptions.
+12. The template does not make an unresolved Test/Production separation mechanism assumption.
+
+STATUS:
+PROPOSED — NOT APPROVED
+
+GITHUB:
+UNCHANGED
