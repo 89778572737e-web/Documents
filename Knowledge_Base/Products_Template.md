@@ -177,5 +177,3 @@ Structured relationships and structured data must not be placed in Notes.
 Product Core Data describes the Product itself.
 
 Analysis results, decision records, agent-specific outputs, and analysis history are not part of the Product Core Record unless their structure is explicitly defined by a separate approved architectural decision.
-
-<!-- VERIFICATION MARKER: 2026-08-23 -->
