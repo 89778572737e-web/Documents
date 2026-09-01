@@ -124,7 +124,7 @@ Required: OPTIONAL.
 
 ## Supplier ID
 
-Structured reference to the canonical Supplier.
+Structured reference to the canonical Supplier. Plain ID text (e.g. Supplier-0001), not a wiki-style link.
 
 Required: CONDITIONAL.
 
