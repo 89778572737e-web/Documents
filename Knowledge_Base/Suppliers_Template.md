@@ -39,22 +39,26 @@ Supply Stability:
 Customer Reviews:
 Certification:
 
-## 6. Supplier Lifecycle
+## 6. Relationships
+
+Related Products:
+
+## 7. Supplier Lifecycle
 
 Status:
 
-## 7. Source / Evidence
+## 8. Source / Evidence
 
 Primary Source:
 Additional Sources:
 
-## 8. Data Quality
+## 9. Data Quality
 
 Data Classification:
 Verification Status:
 Missing Required Data:
 
-## 9. Notes
+## 10. Notes
 
 Notes:
 
@@ -62,7 +66,7 @@ Notes:
 
 ## Supplier ID
 
-Canonical unique identifier of the Supplier.
+Canonical unique identifier of the Supplier. Plain ID text (e.g. Supplier-0001), not a wiki-style link.
 
 Required: YES.
 
@@ -101,6 +105,12 @@ Required: YES.
 Main products offered by the supplier.
 
 Required: CONDITIONAL.
+
+## Related Products
+
+Structured list of canonical Product IDs supplied by this Supplier (plain ID text, e.g. Product-0001 — one per line). This is the reverse relationship to the Product's Supplier ID field.
+
+Required: OPTIONAL.
 
 ## MOQ
 
