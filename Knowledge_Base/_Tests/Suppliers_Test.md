@@ -4,116 +4,156 @@
 
 Эти записи не должны попадать в production-выборку поставщиков.
 
+Core Data приведена к схеме KB v1.0 (Phase 5). Результаты анализа перенесены в _Analysis/TEST-SUPPLIER-001_Analysis.md согласно принципу Decision M (применён по аналогии к Supplier).
+
 ---
 
-# Test Supplier Analysis
+# TEST-SUPPLIER-001
 
-## Supplier ID
+## 1. Supplier Identity
+
+Supplier ID:
 
 TEST-SUPPLIER-001
 
----
-
-## Название компании
+Company Name:
 
 Test Outdoor Manufacturing
 
----
-
-## Платформа
+Platform:
 
 Тестовая запись
 
-Ссылка:
+URL:
 
 Не указана
 
----
+Country:
 
-## Категория товаров
+(не указано)
+
+Category:
 
 Outdoor / Travel Accessories
 
-Основные товары:
+Primary Products:
 
 Аксессуары для путешествий и хранения
 
----
+## 2. Production
 
-## Условия сотрудничества
-
-Минимальный заказ (MOQ):
+MOQ:
 
 500 единиц
 
-Цена:
+Production Capacity:
+
+(не указано)
+
+Production Lead Time:
+
+Требует проверки
+
+Customization Available:
+
+(не указано)
+
+Samples Available:
+
+(не указано)
+
+## 3. Pricing & Terms
+
+Unit Price:
 
 Требует уточнения
 
-Условия оплаты:
+Payment Terms:
 
 Требует проверки
 
-Срок производства:
+Volume Discounts:
+
+(не указано)
+
+Additional Costs:
+
+(не указано)
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано)
+
+Shipping Cost:
+
+(не указано)
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
 
 Требует проверки
 
-Условия доставки:
+## 5. Quality Assessment
 
-Требует проверки
-
----
-
-## Оценка качества
-
-Качество товара:
+Product Quality:
 
 Требует проверки образца
 
-Надёжность поставщика:
+Supply Stability:
 
 Не оценена
 
-Отзывы:
+Customer Reviews:
 
 Нет данных
 
----
+Certification:
 
-## Анализ поставщика
+(не указано)
 
-Преимущества:
+## 6. Relationships
 
-- подходит под категорию товара;
-- возможна дальнейшая проверка.
+Related Products:
 
-Недостатки:
+TEST-001
 
-- отсутствуют реальные данные;
-- требуется проверка.
+## 7. Supplier Lifecycle
 
----
+Status:
 
-## Оценка AI
+Тестовый анализ завершён — ПРИМЕЧАНИЕ: это значение не соответствует ни одному из известных вариантов Supplier Status enum, обнаруженных в репозитории (см. Stage 5 findings). Требует отдельного решения по каноническому enum, прежде чем считать статус валидным.
 
-Надёжность поставщика:
+## 8. Source / Evidence
 
-Не определена
+Primary Source:
 
-Потенциал сотрудничества:
+(отсутствует)
 
-Требует анализа
+Additional Sources:
 
-Итоговая рекомендация:
+(отсутствуют)
 
-Провести дополнительную проверку.
+## 9. Data Quality
 
----
+Data Classification:
 
-## Статус проверки
+ASSUMPTION / REQUIRES VERIFICATION
 
-Тестовый анализ завершён.
+Verification Status:
 
-Следующий шаг:
+NOT VERIFIED
 
-Получение реальных данных поставщика.
+Missing Required Data:
+
+Country, Production Capacity, Customization Available, Samples Available, Volume Discounts, Additional Costs, Shipping Method, Shipping Cost, Certification, Primary Source
+
+## 10. Notes
+
+Notes:
+
+Полная история анализа (Анализ поставщика, Оценка AI) перенесена в _Analysis/TEST-SUPPLIER-001_Analysis.md при миграции KB v1.0 (Phase 5).
