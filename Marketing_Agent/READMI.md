@@ -204,7 +204,9 @@ Marketing Analysis Completed.
 
 После завершения анализа результат передаётся:
 
-Marketing Agent → Sales Agent → AI Command Center.
+Marketing Agent → Business Manager (для решения).
+
+Sales Agent подключается только после решения "запустить", для подготовки коммерческих материалов — не до принятия решения. (Исправлено в Phase 7: ранее результат ошибочно направлялся в обход Business Manager.)
 
 Результат может быть сохранён в:
 
