@@ -29,6 +29,8 @@ Business Manager:
 Business Manager получает данные от:
 
 - Product Hunter;
+- Supplier Sourcing Agent;
+- Financial Evaluation Agent;
 - Marketing Agent;
 - Sales Agent;
 - Knowledge Base.
@@ -74,3 +76,15 @@ Business Manager получает данные от:
 Business Manager не заменяет остальные агенты.
 
 Он объединяет информацию, оценивает ситуацию и помогает системе принимать качественные бизнес-решения.
+
+---
+
+# Место в цепочке передачи результата (Phase 7 fix)
+
+Ранее Financial Evaluation Agent и Marketing Agent описывали передачу результата напрямую в Sales Agent / AI Command Center, минуя Business Manager. Это было архитектурной ошибкой: решение о запуске обязано проходить через Business Manager.
+
+Актуальная цепочка:
+
+Financial Evaluation → Marketing Agent → (Demand Validation, если применимо) → Business Manager (решение) → AI Command Center (сохранение).
+
+Sales Agent подключается ПОСЛЕ решения "запустить" — для подготовки коммерческих материалов, а не до принятия решения.
