@@ -241,7 +241,9 @@ Financial Analysis Completed.
 
 После завершения финансового анализа результат передаётся:
 
-Financial Evaluation → Marketing Agent → Sales Agent → AI Command Center.
+Financial Evaluation → Marketing Agent → (Demand Validation) → Business Manager (для решения).
+
+(Исправлено в Phase 7: ранее результат ошибочно направлялся в обход Business Manager, что означало, что финансовые данные никогда не попадали к тому, кто принимает решение о запуске.)
 
 Результат может быть сохранён в:
 
