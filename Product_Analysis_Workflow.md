@@ -174,7 +174,7 @@ Financial Evaluation Agent.
 
 REQUIRED DATA:
 
-Product ID, данные товара, данные поставщика, расходы, цена продажи, рыночные данные (согласно Knowledge_Base/Financial_Evaluation_Agent.md).
+Product ID, данные товара, данные поставщика, расходы, цена продажи, рыночные данные (согласно Financial_Evaluation_Agent/README.md).
 
 QUALITY GATE:
 
