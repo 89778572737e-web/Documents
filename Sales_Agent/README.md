@@ -1,4 +1,4 @@
-# AI Sales Agent# Sales Agent
+# Sales Agent
 
 ## Назначение
 
