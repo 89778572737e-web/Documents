@@ -220,6 +220,10 @@ Canonical Supplier lifecycle status.
 
 Required: YES.
 
+CANONICAL ENUM (решено в Phase 12, на основании реального использования в Supplier-0001): Найден, Проверяется, Одобрен, Тестируется, Отклонён.
+
+Это разрешает конфликт между двумя ранее найденными вариантами (Stage 5): пятизначный descriptive-вариант выбран как канонический вместо четырёхзначного императивного варианта, ранее присутствовавшего в другой версии этого шаблона.
+
 The exact final enum values and their language are not defined by this proposal. Multiple inconsistent enum variants have been observed in this repository (in this template, and in Suppliers.md Database Rules) and must be resolved by a separate decision.
 
 ## Primary Source
