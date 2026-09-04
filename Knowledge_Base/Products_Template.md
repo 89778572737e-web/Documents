@@ -134,6 +134,10 @@ Canonical Product lifecycle status.
 
 Required: YES.
 
+CANONICAL ENUM (решено в Phase 12, на основании реального использования в Product-0001): Исследуется, Прошел анализ, Готов к тестированию, Запущен, Отклонён.
+
+Значения намеренно на русском языке — поле предназначено для прямого чтения пользователем, названия полей (Status) остаются на английском для консистентности схемы.
+
 ## Primary Source
 
 Primary evidence/source for externally verifiable Product information.
