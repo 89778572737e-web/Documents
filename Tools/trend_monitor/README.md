@@ -20,9 +20,9 @@
 
 ## Настройка (один раз)
 
-В GitHub: репозиторий, Settings, Secrets and variables, Actions. Добавить два секрета:
-- `TELEGRAM_BOT_TOKEN` — токен бота из @BotFather;
-- `TELEGRAM_CHAT_ID` — номер чата, куда слать.
+1. В Telegram создать бота через @BotFather и нажать у бота Start.
+2. В GitHub: репозиторий, Settings, Secrets and variables, Actions: добавить секрет `TELEGRAM_BOT_TOKEN` (токен бота).
+3. Номер чата радар находит сам по сообщению Start (Telegram хранит его около суток) и запоминает в `Knowledge_Base/_Radar/chat_id.txt`. Файл лежит в открытом репозитории: это только числовой номер чата, написать тебе без токена с ним нельзя. Если хочешь скрыть номер, задай его секретом `TELEGRAM_CHAT_ID`, и файл не понадобится.
 
 ## Проверено / не проверено
 
