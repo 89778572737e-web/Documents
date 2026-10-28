@@ -14,10 +14,15 @@ def fetch(config):
     found, errors = [], []
     for term in config["seed_terms"]:
         try:
-            pt.build_payload([term], timeframe=config["timeframe"], geo=config["geo"])
+            pt.build_payload([term], timeframe=config["timeframe"], geo=config["geo"],
+                             cat=config.get("category", 0))
             rising = pt.related_queries().get(term, {}).get("rising")
             if rising is not None:
+                stop = [w.lower() for w in config.get("stop_words", [])]
                 for _, row in rising.iterrows():
+                    q = str(row["query"]).lower()
+                    if any(w in q for w in stop):
+                        continue
                     found.append({
                         "term": str(row["query"]),
                         "growth_pct": float(row["value"]),

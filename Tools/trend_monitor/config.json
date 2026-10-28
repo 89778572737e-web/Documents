@@ -1,14 +1,54 @@
 {
   "_comment": "Настройки радара. Любой параметр можно менять без правки кода.",
-  "sources": ["google_trends"],
+  "sources": [
+    "google_trends"
+  ],
   "seed_terms": [
-    "phone accessory", "kitchen gadget", "pet product", "car accessory",
-    "beauty device", "fitness gear", "home organizer", "camping gear",
-    "baby product", "led light", "travel gadget", "desk accessory"
+    "phone case",
+    "wireless charger",
+    "car organizer",
+    "pet toy",
+    "led strip lights",
+    "massage gun",
+    "portable blender",
+    "camping lantern",
+    "baby carrier",
+    "desk lamp",
+    "travel pillow",
+    "air fryer accessory",
+    "hair tool",
+    "electric kettle",
+    "water bottle",
+    "backpack"
   ],
   "timeframe": "now 7-d",
   "geo": "",
   "min_growth_pct": 300,
   "max_per_day": 10,
-  "pause_between_requests_sec": 8
+  "pause_between_requests_sec": 8,
+  "category": 18,
+  "stop_words": [
+    "crossword",
+    "clue",
+    "capital",
+    "battle",
+    "singer",
+    "movie",
+    "lyrics",
+    "wiki",
+    "news",
+    "game",
+    "episode",
+    "cast",
+    "song",
+    "weather",
+    "score",
+    "vs",
+    "reddit",
+    "youtube",
+    "meaning",
+    "definition",
+    "near me",
+    "price today"
+  ]
 }
