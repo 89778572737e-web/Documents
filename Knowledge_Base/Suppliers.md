@@ -617,3 +617,444 @@ Verification Status:
 Missing Required Data:
 
 Доставка, проверка сертификатов, образец, цена модели 380 мл у этого поставщика.
+
+
+---
+
+# Supplier-0005
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0005
+
+Company Name:
+
+Shenzhen Bozhida Technology Co., Ltd.
+
+Platform:
+
+alibaba.com (Verified; 11 лет; 4.6/5 на 132 отзывах; 2-е место по продажам в категории «Соковыжималки»)
+
+URL:
+
+https://szbozhida.en.alibaba.com/ru_RU/company_profile.html
+
+Country:
+
+Китай (Шэньчжэнь)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Primary Products:
+
+Мелкая кухонная техника, портативные блендеры
+
+## 2. Production
+
+MOQ:
+
+1-25 штук по листингу (запрошено на 500-1500)
+
+Production Capacity:
+
+Площадь 2400 м2, 33 рабочих на линии, 8 контролёров качества, 5 инженеров
+
+Production Lead Time:
+
+(не указано — запрошено у поставщика 2026-10-29)
+
+Customization Available:
+
+Да (изготовление по запросу, обработка образцов); поддержка Amazon FBA
+
+Samples Available:
+
+(запрошено у поставщика 2026-10-29)
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+€5.64-6.00 за штуку (по данным поиска Alibaba, MOQ 25 / 1 шт.; не для 380 мл точно)
+
+Payment Terms:
+
+(не указано — требует подтверждения)
+
+Volume Discounts:
+
+(запрошено: цены на 500, 1000 и 1500 штук)
+
+Additional Costs:
+
+Доставка, пошлины, упаковка с логотипом — НЕ ПОДТВЕРЖДЕНЫ.
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+Литиевая батарея: условия перевозки требуют проверки.
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+Своевременных отправок 100%, повторных заказов 6% (ниже среднего), время отклика до 5 ч
+
+Customer Reviews:
+
+4.6/5 на 132 отзывах
+
+Certification:
+
+НЕ ПОДТВЕРЖДЕНЫ. Запрошены UN38.3 на батарею, CE/FCC, LFGB или FDA на контакт с пищей.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0003
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+Alibaba, страница компании и результаты поиска «380ml portable blender usb» (2026-10-29)
+
+Additional Sources:
+
+Запрос отправлен через форму Alibaba 2026-10-29 (подтверждение «Ваш запрос успешно отправлен»), ответа пока нет.
+
+## 9. Data Quality
+
+Data Classification:
+
+Цифры компании — FACT/DATA по странице Alibaba. Надёжность — ASSUMPTION.
+
+Verification Status:
+
+Показатели Alibaba: VERIFIED по странице. Сертификаты и качество: NOT VERIFIED.
+
+Missing Required Data:
+
+Сертификаты, цены на 500/1000/1500 шт., срок, цена образца, доставка, название и лицензия компании.
+
+
+---
+
+# Supplier-0006
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0006
+
+Company Name:
+
+Shenzhen Denorgin Tech Co., Ltd.
+
+Platform:
+
+alibaba.com (11 лет; 4.6/5 на 129 отзывах; онлайн-сделок на $1.9M+ (402 заказа))
+
+URL:
+
+https://denorgin.en.alibaba.com/ru_RU/company_profile.html
+
+Country:
+
+Китай (Шэньчжэнь)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Primary Products:
+
+Кофемашины, портативные блендеры (в каталоге 600 мл $8.70-11; с патентом A7 $6.30-8.99)
+
+## 2. Production
+
+MOQ:
+
+1 шт. по листингу (запрошено на 500-1500)
+
+Production Capacity:
+
+207 сотрудников, 13 производственных линий, 3975 м2, 14 контролёров качества, 8 инженеров, 165 новых товаров в год
+
+Production Lead Time:
+
+(не указано — запрошено у поставщика 2026-10-29)
+
+Customization Available:
+
+Да (изготовление по запросу, обработка образцов)
+
+Samples Available:
+
+(запрошено у поставщика 2026-10-29)
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+$6.30-8.99 (блендер с патентом) / $8.70-11 (600 мл), по каталогу; цена модели 380 мл НЕ УКАЗАНА
+
+Payment Terms:
+
+(не указано — требует подтверждения)
+
+Volume Discounts:
+
+(запрошено: цены на 500, 1000 и 1500 штук)
+
+Additional Costs:
+
+Доставка, пошлины, упаковка с логотипом — НЕ ПОДТВЕРЖДЕНЫ.
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+Литиевая батарея: условия перевозки требуют проверки.
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+Своевременных отправок 98.7%, повторных заказов 12%, время отклика до 7 ч
+
+Customer Reviews:
+
+4.6/5 на 129 отзывах
+
+Certification:
+
+НЕ ПОДТВЕРЖДЕНЫ. Запрошены UN38.3 на батарею, CE/FCC, LFGB или FDA на контакт с пищей.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0003
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+Alibaba, страница компании и результаты поиска «380ml portable blender usb» (2026-10-29)
+
+Additional Sources:
+
+Запрос отправлен через форму Alibaba 2026-10-29 (подтверждение «Ваш запрос успешно отправлен»), ответа пока нет.
+
+## 9. Data Quality
+
+Data Classification:
+
+Цифры компании — FACT/DATA по странице Alibaba. Надёжность — ASSUMPTION.
+
+Verification Status:
+
+Показатели Alibaba: VERIFIED по странице. Сертификаты и качество: NOT VERIFIED.
+
+Missing Required Data:
+
+Сертификаты, цены на 500/1000/1500 шт., срок, цена образца, доставка, название и лицензия компании.
+
+
+---
+
+# Supplier-0007
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0007
+
+Company Name:
+
+Dongguan Happy Life Technology Co., Ltd.
+
+Platform:
+
+alibaba.com (10 лет; 4.8/5 на 16 отзывах; 9-е место по продажам в категории «Умная посуда»)
+
+URL:
+
+https://yuelafu.en.alibaba.com/ru_RU/company_profile.html
+
+Country:
+
+Китай (Дунгуань)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Primary Products:
+
+Посуда для напитков и аксессуары, портативные блендеры
+
+## 2. Production
+
+MOQ:
+
+100 штук (по поиску Alibaba; запрошено на 500-1500)
+
+Production Capacity:
+
+Площадь 2600 м2, 2 производственные линии, 2 контролёра качества, 2 инженера
+
+Production Lead Time:
+
+(не указано — запрошено у поставщика 2026-10-29)
+
+Customization Available:
+
+Да (изготовление по запросу); поддержка Amazon FBA
+
+Samples Available:
+
+(запрошено у поставщика 2026-10-29)
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+€3.18-4.09 за штуку (по данным поиска Alibaba, MOQ 100)
+
+Payment Terms:
+
+(не указано — требует подтверждения)
+
+Volume Discounts:
+
+(запрошено: цены на 500, 1000 и 1500 штук)
+
+Additional Costs:
+
+Доставка, пошлины, упаковка с логотипом — НЕ ПОДТВЕРЖДЕНЫ.
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+Литиевая батарея: условия перевозки требуют проверки.
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+Своевременных отправок 98.7%, повторных заказов 21% (выше среднего), время отклика до 3 ч
+
+Customer Reviews:
+
+4.8/5 на 16 отзывах (мало отзывов)
+
+Certification:
+
+НЕ ПОДТВЕРЖДЕНЫ. Запрошены UN38.3 на батарею, CE/FCC, LFGB или FDA на контакт с пищей.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0003
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+Alibaba, страница компании и результаты поиска «380ml portable blender usb» (2026-10-29)
+
+Additional Sources:
+
+Запрос отправлен через форму Alibaba 2026-10-29 (подтверждение «Ваш запрос успешно отправлен»), ответа пока нет.
+
+## 9. Data Quality
+
+Data Classification:
+
+Цифры компании — FACT/DATA по странице Alibaba. Надёжность — ASSUMPTION.
+
+Verification Status:
+
+Показатели Alibaba: VERIFIED по странице. Сертификаты и качество: NOT VERIFIED.
+
+Missing Required Data:
+
+Сертификаты, цены на 500/1000/1500 шт., срок, цена образца, доставка, название и лицензия компании.
