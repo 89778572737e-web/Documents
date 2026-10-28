@@ -52,6 +52,17 @@ def find_product_ids(products_content):
     return sorted(set(re.findall(r"Product-\d{4}", products_content)))
 
 
+def parse_gate3_input(analysis_content):
+    """Читает из файла анализа строку вида:
+    GATE3_INPUT: unit_cost=3.50 sell_price=25.00
+    (цена продажи — предположение, оно описано в самом анализе)."""
+    import re
+    m = re.search(r"(?m)^GATE3_INPUT:\s*unit_cost=([\d.]+)\s+sell_price=([\d.]+)", analysis_content or "")
+    if not m:
+        return {}
+    return {"unit_cost": float(m.group(1)), "sell_price": float(m.group(2))}
+
+
 if __name__ == "__main__":
     print("=" * 70)
     print("FULL KNOWLEDGE BASE AUDIT — run_full_audit.py")
@@ -78,7 +89,7 @@ if __name__ == "__main__":
 
         analysis_content = fetch_file(f'Knowledge_Base/_Analysis/{pid}_Analysis.md') or ""
 
-        financials = known_financials.get(pid, {})
+        financials = known_financials.get(pid) or parse_gate3_input(analysis_content)
         gates = [
             gate_1_product_data_completeness(product_records.get(pid, "")),
             gate_2_supplier_verification(supplier_records.get(supplier_id_of(product_records.get(pid, "")), "")),

@@ -259,3 +259,102 @@ Missing Required Data:
 Notes:
 
 Взят 2026-10-28 как ПРОБНЫЙ товар для прогона системы (решение пользователя), а не как лучший кандидат. Честный вывод анализа: маржа тонкая, рынок забит — см. _Analysis/Product-0002_Analysis.md.
+
+
+---
+
+# Product-0003
+
+## 1. Product Identity
+
+Product ID:
+
+Product-0003
+
+Name:
+
+Portable USB Blender (портативный беспроводной блендер для смузи, 380 мл, зарядка по USB)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Subcategory:
+
+Portable / Cordless Personal Blenders
+
+## 2. Product Core Data
+
+Description:
+
+Личный блендер-бутылка на аккумуляторе, ёмкость 380 мл, заряжается по USB. Шесть лезвий по листингу поставщика. Без бренда, возможна печать своего логотипа и упаковки.
+
+Primary Customer Problem:
+
+(гипотеза, не проверена) Сделать смузи или коктейль вне дома: в офисе, спортзале, поездке.
+
+Product Solution:
+
+Компактный блендер с зарядкой по USB, который помещается в сумку.
+
+Key Features:
+
+380 мл; USB-зарядка; 6 лезвий; без бренда, возможна печать логотипа (по листингам поставщиков).
+
+Advantages:
+
+Низкая закупочная цена ($3.50 за штуку по листингу, партия от 1500). Нужна своя упаковка и логотип.
+
+Disadvantages:
+
+Литиевый аккумулятор: строгие правила перевозки и риск отзыва товара регулятором (см. анализ, случай BlendJet). Рынок занят крупными брендами.
+
+Unique Features:
+
+(нет) Отличие возможно только через упаковку, комплект и подачу.
+
+Improvement Opportunities:
+
+(не подтверждено независимо)
+
+## 3. Supplier Relationship
+
+Supplier ID:
+
+Supplier-0003
+
+## 4. Product Lifecycle
+
+Status:
+
+Исследуется
+
+## 5. Source / Evidence
+
+Primary Source:
+
+Радар трендов 2026-10-28: запрос «blendjet portable blender» (резкий рост, Google Trends, раздел «Покупки»). Рынок Amazon США: asinsight.com (август 2026).
+
+Additional Sources:
+
+Листинги Alibaba (BM China) и Global Sources (Zhejiang Seabroad, Supplier-0004). Реклама TikTok: sovran.ai/Triple Whale. Отзыв BlendJet: cpsc.gov (Recall 24-069).
+
+## 6. Data Quality
+
+Data Classification:
+
+Цены поставщиков и рыночные цифры — FACT/DATA (из страниц). Цена продажи нашей модели, аудитория, расходы на доставку и пошлины — ASSUMPTION / НЕ ПОДТВЕРЖДЕНЫ.
+
+Verification Status:
+
+Рынок Amazon: один источник. Поставщик Supplier-0003: компания не названа на странице, сертификаты не указаны. Причина всплеска запроса «blendjet»: НЕ УСТАНОВЛЕНА.
+
+Missing Required Data:
+
+Название и проверка компании-поставщика, сертификаты на батарею (UN38.3) и контакт с пищей, доставка и пошлины, цена продажи аналога, динамика спроса по датам, образец.
+
+## 7. Notes
+
+Notes:
+
+Взят 2026-10-28 как товар для сквозного прогона цепочки (решение пользователя), покупка не планируется. Подробности и вердикт: _Analysis/Product-0003_Analysis.md. Второй поставщик (другая, более крупная модель 1600 мл): Supplier-0004.

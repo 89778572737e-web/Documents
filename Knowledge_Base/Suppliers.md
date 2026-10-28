@@ -324,3 +324,296 @@ Verification Status:
 Missing Required Data:
 
 Доставка, условия оплаты, сроки производства, цена образца, проверка сертификатов, сравнение с другими поставщиками.
+
+
+---
+
+# Supplier-0003
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0003
+
+Company Name:
+
+НЕ УКАЗАНО на странице (на листинге только «BM China»)
+
+Platform:
+
+alibaba.com
+
+URL:
+
+https://www.alibaba.com/product-introduction/BM-China-380ml-portable-mixer-blender_1600591949002.html
+
+Country:
+
+Китай (по платформе; город не указан)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Primary Products:
+
+Портативный блендер 380 мл, USB-зарядка
+
+## 2. Production
+
+MOQ:
+
+1500 штук (подтверждено листингом)
+
+Production Capacity:
+
+(не указано)
+
+Production Lead Time:
+
+(не указано — требует прямого запроса)
+
+Customization Available:
+
+Логотип, графика и упаковка (от 1500 штук) по листингу.
+
+Samples Available:
+
+(не указано — требует прямого запроса)
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+$3.50 за штуку при 1500-3299 шт.; $3.30 при 3300-6899; $3.00 от 6900 (подтверждено листингом)
+
+Payment Terms:
+
+(не указано — требует подтверждения)
+
+Volume Discounts:
+
+Да, три ступени (см. цену).
+
+Additional Costs:
+
+Доставка, пошлины, своя упаковка — НЕ ПОДТВЕРЖДЕНЫ.
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА — существенный пробел.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+Литиевый аккумулятор требует особых условий перевозки — требует проверки.
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+Данных нет: компания не названа, статус проверки на странице не указан.
+
+Customer Reviews:
+
+(не указано)
+
+Certification:
+
+Названа только BPA-free; никаких именных сертификатов на странице нет. Для литиевой батареи и контакта с пищей сертификаты НЕ ПОДТВЕРЖДЕНЫ.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0003
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+Страница модели на alibaba.com (2026-10-29)
+
+Additional Sources:
+
+Supplier-0004 как сравнение (другая модель)
+
+## 9. Data Quality
+
+Data Classification:
+
+Цена и MOQ — FACT/DATA. Надёжность — ASSUMPTION (слабая: компания не названа).
+
+Verification Status:
+
+Цена/MOQ: VERIFIED по листингу. Остальное: NOT VERIFIED.
+
+Missing Required Data:
+
+Название компании и её проверка, сертификаты, доставка, срок производства, образец.
+
+---
+
+# Supplier-0004
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0004
+
+Company Name:
+
+Zhejiang Seabroad Household Products Co., Ltd.
+
+Platform:
+
+Global Sources (значки «Verified supplier» и «Standard Supplier», 2 года на платформе)
+
+URL:
+
+https://m.globalsources.com/Personal-mini/PERSONAL-BLENDER-1221302383p.htm
+
+Country:
+
+Китай (Чжэцзян, порт отгрузки Нинбо)
+
+Category:
+
+Home & Kitchen / Small Appliances
+
+Primary Products:
+
+Портативные блендеры; на странице название модели — большая ёмкость 1600 мл (НЕ тот же товар, что 380 мл)
+
+## 2. Production
+
+MOQ:
+
+1000 штук (подтверждено листингом)
+
+Production Capacity:
+
+(не указано)
+
+Production Lead Time:
+
+30-45 дней по листингу
+
+Customization Available:
+
+Да: OEM, ODM, OBM, свой бренд, требования покупателя.
+
+Samples Available:
+
+Бесплатных образцов нет; стоимость возвращается после подтверждения заказа (по листингу).
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+$8.50 за штуку (одна цена, без ступеней; подтверждено листингом)
+
+Payment Terms:
+
+Банковский перевод (T/T), также аккредитив (по листингу).
+
+Volume Discounts:
+
+Не указаны.
+
+Additional Costs:
+
+Доставка до склада, пошлины — НЕ ПОДТВЕРЖДЕНЫ. Условия FOB Ningbo. Упаковка: по 12 шт. в коробке 45 x 58 x 29.5 см.
+
+## 4. Shipping
+
+Shipping Method:
+
+FOB Ningbo (дальше доставку организует покупатель)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+Литиевый аккумулятор требует особых условий перевозки — требует проверки.
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+Косвенные сигналы: статус «Verified», но на странице противоречие — год основания 2017, а в ответах написано «10 лет в бизнесе».
+
+Customer Reviews:
+
+(не указано)
+
+Certification:
+
+По листингу: EMC, TUV, LFGB, RoHS, PAHS, SCCP, PSE; заявлены BSCI/ISO9001. Подлинность не проверена.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0003
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+Global Sources, страница модели (2026-10-29)
+
+Additional Sources:
+
+Supplier-0003 как сравнение
+
+## 9. Data Quality
+
+Data Classification:
+
+Цена, MOQ, срок, сертификаты — FACT/DATA по листингу. Надёжность — ASSUMPTION.
+
+Verification Status:
+
+Цена/MOQ/срок: VERIFIED по листингу. Сертификаты и надёжность: NOT VERIFIED.
+
+Missing Required Data:
+
+Доставка, проверка сертификатов, образец, цена модели 380 мл у этого поставщика.
