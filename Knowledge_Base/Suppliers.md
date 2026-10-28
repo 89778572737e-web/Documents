@@ -147,7 +147,7 @@ Status:
 
 Найден
 
-ПРИМЕЧАНИЕ: используется значение "Найден" из одного из трёх ранее обнаруженных вариантов enum (см. Phase 10-12 Audit, открытый вопрос про канонический enum) — выбрано как наиболее подходящее по смыслу для текущей стадии, но формально канонический список ещё не утверждён.
+ПРИМЕЧАНИЕ: значение "Найден" входит в канонический список статусов поставщика (см. раздел Statuses выше, решено в Phase 12).
 
 ## 8. Source / Evidence
 
@@ -178,3 +178,149 @@ Missing Required Data:
 Notes:
 
 Первая реальная запись поставщика в рамках практического теста архитектуры (сентябрь 2026). Полная методология сравнения нескольких кандидатов-поставщиков — см. _Analysis/Supplier-0001_Analysis.md.
+
+---
+
+# Supplier-0002
+
+## 1. Supplier Identity
+
+Supplier ID:
+
+Supplier-0002
+
+Company Name:
+
+Shenzhen Zhongpu Electronics Co., Ltd.
+
+Platform:
+
+madeinchina.com (статус Audited Supplier, 3 года на платформе; профиль SGS/BV по данным страницы)
+
+URL:
+
+https://www.madeinchina.com/mall/show-Slim-15W-3-in-1-Foldable-Flat-Wireless-Charger-Mobile-Phone-Holder-Magnetic-Ast-Charging-Station_435754.html
+
+Country:
+
+Китай (Guangdong, Шэньчжэнь)
+
+Category:
+
+Consumer Electronics / Phone Accessories
+
+Primary Products:
+
+Магнитные беспроводные зарядки, модель IP3IN1-B (3 в 1, 15 Вт)
+
+## 2. Production
+
+MOQ:
+
+100 штук (подтверждено листингом)
+
+Production Capacity:
+
+(не указано)
+
+Production Lead Time:
+
+(не указано — требует прямого запроса поставщику)
+
+Customization Available:
+
+(не указано в листинге)
+
+Samples Available:
+
+(не указано — требует прямого запроса)
+
+## 3. Pricing & Terms
+
+Unit Price:
+
+$12.30 за штуку (одна цена в листинге, без скидок по объёму; подтверждено листингом madeinchina.com)
+
+Payment Terms:
+
+(не указано — требует подтверждения у поставщика)
+
+Volume Discounts:
+
+(не указано в листинге)
+
+Additional Costs:
+
+Стоимость доставки от поставщика до склада — НЕ ПОДТВЕРЖДЕНА. Упаковка: 80 шт. в коробке, 40.4 × 38 × 21.7 см, вес брутто 12 кг.
+
+## 4. Shipping
+
+Shipping Method:
+
+(не указано — требует согласования с поставщиком)
+
+Shipping Cost:
+
+НЕ ПОДТВЕРЖДЕНА — существенный пробел для финансового расчёта.
+
+Shipping Time:
+
+(не указано)
+
+Shipping Conditions:
+
+(не указано)
+
+## 5. Quality Assessment
+
+Product Quality:
+
+Не проверено образцом.
+
+Supply Stability:
+
+3 года на платформе, статус Audited Supplier — косвенный сигнал, не прямая проверка.
+
+Customer Reviews:
+
+(не указано в извлечённых данных страницы)
+
+Certification:
+
+CE, RoHS, FCC по листингу; в таблице характеристик указан также Qi. Подлинность сертификатов не проверена.
+
+## 6. Relationships
+
+Related Products:
+
+Product-0002
+
+## 7. Supplier Lifecycle
+
+Status:
+
+Найден
+
+## 8. Source / Evidence
+
+Primary Source:
+
+madeinchina.com, страница модели IP3IN1-B (реальный листинг, 2026-10-28)
+
+Additional Sources:
+
+(нет — сравнение с другими поставщиками не проводилось)
+
+## 9. Data Quality
+
+Data Classification:
+
+Цена и MOQ — FACT/DATA (прямые данные листинга). Надёжность поставщика — ASSUMPTION.
+
+Verification Status:
+
+Цена/MOQ: VERIFIED по листингу. Надёжность/качество/сертификаты: NOT VERIFIED.
+
+Missing Required Data:
+
+Доставка, условия оплаты, сроки производства, цена образца, проверка сертификатов, сравнение с другими поставщиками.

@@ -37,6 +37,17 @@ def fetch_file(path):
     return base64.b64decode(data['content']).decode('utf-8')
 
 
+def split_records(content, prefix):
+    """Разбивает файл на отдельные записи по заголовкам '# Prefix-XXXX'. Возвращает {ID: текст записи}."""
+    parts = re.split(rf"(?m)^# ({prefix}-\d{{4}})\s*$", content)
+    return {parts[i]: parts[i + 1] for i in range(1, len(parts) - 1, 2)}
+
+
+def supplier_id_of(product_record):
+    m = re.search(r"Supplier ID:\s*(Supplier-\d{4})", product_record)
+    return m.group(1) if m else None
+
+
 def find_product_ids(products_content):
     return sorted(set(re.findall(r"Product-\d{4}", products_content)))
 
@@ -57,6 +68,9 @@ if __name__ == "__main__":
         "Product-0001": {"unit_cost": 3.75, "sell_price": 25.00}
     }
 
+    product_records = split_records(products_content, "Product")
+    supplier_records = split_records(suppliers_content, "Supplier")
+
     for pid in product_ids:
         print(f"\n{'-' * 70}")
         print(f"АУДИТ: {pid}")
@@ -66,8 +80,8 @@ if __name__ == "__main__":
 
         financials = known_financials.get(pid, {})
         gates = [
-            gate_1_product_data_completeness(products_content),
-            gate_2_supplier_verification(suppliers_content),
+            gate_1_product_data_completeness(product_records.get(pid, "")),
+            gate_2_supplier_verification(supplier_records.get(supplier_id_of(product_records.get(pid, "")), "")),
             gate_3_financial_viability(financials.get("unit_cost"), financials.get("sell_price")),
             gate_4_marketing_feasibility(analysis_content),
         ]

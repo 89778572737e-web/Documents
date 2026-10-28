@@ -33,6 +33,10 @@ def gate_4_marketing_feasibility(analysis_content: str) -> GateResult:
         return GateResult("GATE 4: Marketing Feasibility", "FAIL",
                            "Marketing Agent Analysis присутствует, но пуст или неинформативен.")
 
+    if re.match(r"(Не проводился|Не проводилс|Not performed|TBD)", text, re.IGNORECASE):
+        return GateResult("GATE 4: Marketing Feasibility", "INSUFFICIENT_DATA",
+                           "Раздел Marketing Agent Analysis есть, но анализ ещё не проводился.")
+
     return GateResult("GATE 4: Marketing Feasibility", "PASS",
                        "Найдена содержательная маркетинговая гипотеза (аудитория/позиционирование).")
 
