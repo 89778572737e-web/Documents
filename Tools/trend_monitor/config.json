@@ -1,0 +1,14 @@
+{
+  "_comment": "Настройки радара. Любой параметр можно менять без правки кода.",
+  "sources": ["google_trends"],
+  "seed_terms": [
+    "phone accessory", "kitchen gadget", "pet product", "car accessory",
+    "beauty device", "fitness gear", "home organizer", "camping gear",
+    "baby product", "led light", "travel gadget", "desk accessory"
+  ],
+  "timeframe": "now 7-d",
+  "geo": "",
+  "min_growth_pct": 300,
+  "max_per_day": 10,
+  "pause_between_requests_sec": 8
+}
